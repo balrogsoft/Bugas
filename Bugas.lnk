@@ -1,0 +1,12 @@
+FROM LIB:c.o "Bugas.o"+"c2p1x1_6b.o"+"ptplayer.o"+"drawvectors.o"+"drawglowline.o"
+TO "Bugas"
+LIB LIB:scmffp.lib
+    LIB:scnb.lib LIB:amiga.lib
+SMALLCODE
+STRIPDEBUG
+DEFINE @__chkabort=@__dummy
+DEFINE __CXM33=__UCXM33
+DEFINE __CXD33=__UCXD33
+DEFINE __CXM22=__UCXM22
+DEFINE __CXD22=__UCXD22
+
