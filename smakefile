@@ -1,5 +1,4 @@
 CFLAGS = opt opttime stackextend  cpu=68030 math=ffp 
-#CFLAGS = debug=s opt optpeep optsched opttime stackextend cpu=68030 math=ffp 
 
 OBJS = c2p1x1_6b.o ptplayer.o drawvectors.o drawglowline.o 
 
