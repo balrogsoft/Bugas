@@ -555,7 +555,7 @@ int main()
         custom->intreq = 0x7fff;
         custom->dmacon = 0x7fff;
 
-        custom->dmacon = DMAF_SETCLR | DMAF_MASTER | DMAF_RASTER | DMAF_BLITTER  | DMAF_COPPER;
+        custom->dmacon = DMAF_SETCLR | DMAF_MASTER | DMAF_RASTER | DMAF_COPPER;
 
         
         bplptr[0] = ptr20;
